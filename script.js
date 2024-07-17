@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const targetDate = new Date('August 30, 2024 23:59:59').getTime();
+    const targetDate = new Date('August 30, 2024 00:00:00').getTime();
     const countdown = document.getElementById('countdown');
     const progressBar = document.getElementById('progressBar');
     const birthdayPopup = document.getElementById('birthdayPopup');
