@@ -71,27 +71,14 @@
             <h2><i class="fas fa-gift"></i> Regalos</h2>
             <p>Si deseas regalarme algo más que tu hermosa presencia, mi Alias es: <strong>molina.ursula</strong></p>
             <div class="container text-center mt-4">
-                <button type="button" class="btn btn-success" onclick="openMercadoPagoApp()">
-                    <i class="fas fa-money-bill-wave"></i> Transferir Dinero
-                </button>
-            </div>            
-            <script>
-                function openMercadoPagoApp() {
-                    var urlApp = 'mercadopago://';
-                    var urlWeb = 'https://www.mercadopago.com.ar/withdraw#from-section=home';
-            
-                    var opened = window.open(urlApp, '_blank');
-                    setTimeout(function() {
-                        if (!opened || opened.closed || typeof opened.closed === 'undefined') {
-                            // Si la app no está instalada o no se puede abrir, redirige a la web
-                            window.open(urlWeb, '_blank');
-                        }
-                    }, 500);
-                }
-            </script>                        
+                <div class="container text-center mt-4">
+                    <a href="https://www.mercadopago.com.ar/home" class="btn btn-success" target="_blank">
+                        <i class="fas fa-money-bill-wave"></i> Transferir
+                    </a>
+                </div>                
+            </div>                                 
         </div>
     </section>
-
     <div id="birthdayPopup" class="birthday-popup d-none">
         <div class="popup-content bg-light p-3 rounded">
             <h1>¡Ha llegado el gran día!</h1>
