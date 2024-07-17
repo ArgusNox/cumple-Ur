@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #f1f1f1;
+}
+
+
+
+p{
+    font-family: sans-serif;
+}
+ header > h1{
+    color: steelblue;
+}
+.bg-header {
+    background-color: #2a2a2a;
+}
+
+.section {
+    padding: 40px 0;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.section-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.separator {
+    margin: 40px 0;
+    border-bottom: 1px solid #444;
+}
+
+.birthday-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1050;
+    background-color: #333;
+    color: #f1f1f1;
+    border: 1px solid #444;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    max-width: 300px;
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: #007bff !important;
+}
+
+h2, p {
+    color: #f1f1f1;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
